@@ -14,6 +14,8 @@ export default ({ name, enthusiasmLevel = 1 }: IProps) => {
       <div className="greeting">
         Hello {`${name + getExclamationMarks(enthusiasmLevel)}`}
       </div>
+      {/* <button onClick={}>Increase</button>
+      <button onClick={}>Decrease</button> */}
     </div>
   );
 };

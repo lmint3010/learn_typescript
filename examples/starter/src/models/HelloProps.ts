@@ -1,5 +1,5 @@
 // Use ?: for "Optional" type annotations
 export interface IProps {
-  name: string;
+  name?: string;
   enthusiasmLevel?: number;
 }
